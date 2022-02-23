@@ -252,7 +252,7 @@ Vue.use(Vant)
    <template>
      <div>
        <!-- NavBar 组件：只提供 title 标题 -->
-       <van-nav-bar title="黑马头条 - 登录" />
+       <van-nav-bar title="登录" />
      </div>
    </template>
    ```
@@ -263,7 +263,7 @@ Vue.use(Vant)
    <template>
      <div>
        <van-sticky>
-         <van-nav-bar title="黑马头条 - 登录" />
+         <van-nav-bar title="登录" />
        </van-sticky>
      </div>
    </template>
