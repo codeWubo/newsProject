@@ -252,7 +252,7 @@ Vue.use(Vant)
    <template>
      <div>
        <!-- NavBar 组件：只提供 title 标题 -->
-       <van-nav-bar title="黑马头条 - 登录" />
+       <van-nav-bar title="登录" />
      </div>
    </template>
    ```
@@ -263,7 +263,7 @@ Vue.use(Vant)
    <template>
      <div>
        <van-sticky>
-         <van-nav-bar title="黑马头条 - 登录" />
+         <van-nav-bar title="登录" />
        </van-sticky>
      </div>
    </template>
@@ -418,8 +418,8 @@ Vue.use(Vant)
      return {
        // 登录的表单数据对象
        formLogin: {
-         mobile: '13888888888',
-         code: '246810'
+         mobile: '12758241235',
+         code: '666'
        },
        // 登录表单的验证规则对象
        formLoginRules: {
@@ -666,7 +666,7 @@ Vue.use(Vant)
          <!-- 头部区域 -->
          <van-nav-bar fixed>
            <template #left>
-             <img src="../../assets/toutiao_logo.png" alt="logo" class="logo" />
+             <h3>新闻资讯</h3>
            </template>
            <template #right>
              <van-icon name="search" color="white" size="18" />
