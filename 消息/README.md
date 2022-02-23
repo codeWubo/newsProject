@@ -32,7 +32,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 1. 运行如下的命令：
 
    ```bash
-   vue create toutiao
+   vue create news
    ```
 
 2. 清空 `App.vue` 组件中的代码，并删除 `components` 目录下的 `HelloWorld.vue` 组件
